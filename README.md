@@ -7,16 +7,18 @@ This theme was built with [Base16 Builder](https://github.com/chriskempson/base1
 As scide currently doesn't support theme files, themes have to be appended to
 `sc_ide_conf.yaml` (On Linux it's in `~/.config/SuperCollider/sc_ide_conf.yaml`).
 
+Make sure scide is closed while installing the themes.
+
 ### Automatic
 The install script depends on the [`yaml` CLI tool](https://github.com/mikefarah/yaml).
-Close scide run from the `base16-scide` directory:
+Run from the `base16-scide` directory:
 
 `$ ./install.sh <sc_ide_conf.yaml>`
 
 ### Manual
-Close scide, open `sc_ide_conf.yaml` on your favorite text editor and copy the desired
+Open `sc_ide_conf.yaml` on your favorite text editor and copy the desired
 `themes:` entry from `themes/*.yaml`.
 
 ## Post-install
-Reopen scide and the `base16-*` themes should show up in the Configuration window:
+The `base16-*` themes should show up in the Configuration window on scide:
 `Edit > Preferences > Editor > Font & Colors`
