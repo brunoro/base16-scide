@@ -16,6 +16,6 @@ Close scide run from the `base16-scide` directory:
 Close scide, open `sc_ide_conf.yaml` on your favorite text editor and copy the desired
 `theme:` entry from `themes/*.yaml`.
 
-### Post
+## Post-install
 Reopen scide and the `base16-*` themes should show up in the Configuration window:
 `Edit > Preferences > Editor > Font & Colors`
